@@ -29,6 +29,9 @@ body{
     font: normal bold 18px var(--font-ram);
 }
 
+
+
+
 /* 1 add a bgcolor-black class in CSS then go to index.html for 2.  */
 
 .bgcolor-black {
@@ -81,4 +84,15 @@ body{
 
 #header .nav-link:hover{
     color: var(--color-white)!important;
+}
+
+/* 7 add the following header css */
+
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: left .5s ease;
 }
